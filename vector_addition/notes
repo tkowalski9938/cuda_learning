@@ -1,0 +1,2 @@
+- must be compiled with -arch=sm_61 on gtx 1050m
+    - gtx1050m has a compute capability of 6.1. The arch flag tells NVCC what the minimum compute capability that the program will require from the GPU
